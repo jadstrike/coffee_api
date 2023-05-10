@@ -60,6 +60,6 @@ func main() {
 	router.GET("/coffees", getCoffees)
 	router.GET("/coffee/:id", coffeeById)
 	router.POST("/createCoffee", createCoffee)
-	router.Run("localhost:8080")
+	router.Run("https://coffeeapi-production.up.railway.app/")
 
 }
